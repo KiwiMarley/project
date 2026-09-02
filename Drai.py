@@ -3,7 +3,7 @@ import aiohttp
 import json
 import requests
 from web3 import Web3, HTTPProvider
-from web3 import Web3, AsyncHTTPProvider
+#from web3 import Web3, AsyncHTTPProvider
 from eth_account import Account
 from eth_account.signers.local import LocalAccount
 from datetime import datetime
@@ -25,7 +25,7 @@ blockchain_providers = config["blockchain_providers"]
 
 # Initialize web3 for Ethereum
 from web3 import Web3, HTTPProvider
-w3 = Web3(AsyncHTTPProvider(blockchain_providers["ETH"]))
+#w3 = Web3(AsyncHTTPProvider(blockchain_providers["ETH"]))
 w3 = Web3(HTTPProvider(blockchain_providers["ETH"]))
 w3.eth.default_account = Account.from_key(private_key).address
 
