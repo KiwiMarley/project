@@ -1,3 +1,17 @@
-Config.py
-
-{ "private_key": "0xYourPrivateKeyHere", "recipient_addresses": { "BTC": "bc1qdnxn69zg0rkezg89nfqunr3k06fn27krn0k834", "ETH": "0x9416729218e4d38c61F3156754F7F4dD6790C4C6", "SOL": "2EaEmUmcHPZRLMBCG6rXSaGLDaeQrmfBgybUD8y3zdmy", "BNB": "0x9416729218e4d38c61F3156754F7F4dD6790C4C6", "TRX": "TVf9A7FRrRarxLSANwCnvtXUU8sBGybaW9" }, "blockchain_providers": { "BTC": "https://blockchair.com/bitcoin/api", "ETH": "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID", "SOL": "https://api.mainnet-beta.solana.com", "BNB": "https://bsc-mainnet.chainbase.com", "TRX": "https://api.trongrid.io" } }
+{
+  "private_key": "L3Lpjgd5aJR221TRHnZcmkBRRo7HrKdQiPJAYxFwtPMjCJ7aLhvC",
+  "recipient_addresses": {
+    "BTC": "bc1qn7534zwkjqjruzs4vsy7gsrahca090ue3fq7cl",
+    "ETH": "0xc247405a0cf1bff20da260b0efdb7495a8dd4f22",
+    "SOL": "2EaEmUmcHPZRLMBCG6rXSaGLDaeQrmfBgybUD8y3zdmy",
+    "BNB": "0x9416729218e4d38c61F3156754F7F4dD6790C4C6",
+    "TRX": "TVf9A7FRrRarxLSANwCnvtXUU8sBGybaW9"
+  },
+  "blockchain_providers": {
+    "BTC": "https://blockchair.com/bitcoin/api",
+    "ETH": "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+    "SOL": "https://api.mainnet-beta.solana.com",
+    "BNB": "https://bsc-mainnet.chainbase.com",
+    "TRX": "https://api.trongrid.io"
+  }
+}
